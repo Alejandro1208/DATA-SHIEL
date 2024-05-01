@@ -5,7 +5,12 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    background: linear-gradient(to right, #b9b3d0, #8acbd7);
+     /* background: linear-gradient(to right, #b9b3d0, #8acbd7);*/
+  background-image: url('img/banner-dos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+
     overflow: hidden;
   }
   .banner svg {
@@ -45,18 +50,23 @@
   .subtitle {
     font-size: 21px;
     margin-bottom: 1em;
+    color: white;
   }
   
   .button {
     display: inline-block;
     padding: 10px 20px;
+    margin-right: 20px;
     font-size: 1.5em;
     text-decoration: none;
     color: #fff;
-    background-color: #5C41BF;
-    border: solid 2px #5C41BF;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    cursor: pointer;
+    z-index: 99;
+    position: relative;
   }
   
   .button-two {
@@ -64,16 +74,15 @@
     padding: 10px 20px;
     font-size: 1.5em;
     text-decoration: none;
-    color: #5C41BF;
-    background-color: transparent;
-    border: solid 2px #5C41BF;
+    color: #ffffff;
+    background-color: #0093E9;
+    background-image: linear-gradient(315deg, #0093E9 0%, #80D0C7 100%);
+    
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
-  
-  .button:hover {
-    background-color: #7859e9;
-    border: solid 2px #7859e9;
+  .button:hover, .button-two:hover{
+    color: #b9b3d0;
   }
 
   #particles-js {

@@ -1,0 +1,13 @@
+.banner-medio {
+  height: 50vh;
+  background-size: cover;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+ -shadow: 2px 2px #000000;
+}

@@ -34,7 +34,11 @@
   
   .footer-content .legal {
     display: flex;
+    padding-top: 10px;
     flex-direction: column;
+  }
+  .footer-content .legal a{
+    padding-top: 10px;
   }
   
   .footer-content .copyright {
@@ -70,6 +74,6 @@
       font-size: 50px;
     }
     .footer-content nav, .footer-content .logo, .footer-content .legal, .footer-content .copyright{
-      margin: 20px;
+      margin: 25px;
     }
   }

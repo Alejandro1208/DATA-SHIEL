@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Banner.css';
-import ico from './img/ico.svg';
+import { Link } from 'react-router-dom';
+
 
 function Banner() {
     useEffect (()=>{
@@ -99,10 +100,10 @@ function Banner() {
             <div className="banner-content">
                 <h1 className="title"><em>DATASHIELD</em></h1>
                 <p className="subtitle">PRIMERA CONSULTORÍA JURÍDICA INTEGRAL ESPECIALIZADA EN PROTECCIÓN DE DATOS PERSONALES, PRIVACIDAD Y SEGURIDAD DE LA INFORMACIÓN para Personas Físicas, Empresas, e Instituciones Públicas y Privadas a nivel nacional e internacional.</p>
-                <a href="#" className="button">Ver más</a>
-                <a href="#" className="button-two">Contacto</a>
+                <Link to="/servicios" className="button">Ver más</Link>
+                <Link to="/contacto" className="button-two">Contacto</Link>
             </div>
-            <img src={ico} alt="ico" className="ico"/>
+
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">

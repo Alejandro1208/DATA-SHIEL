@@ -1,23 +1,27 @@
 import React from 'react';
-import './Footer.css'; // Asume que tienes un archivo Footer.css en la misma carpeta
+import './Footer.css'; 
+import Logo from './img/logo.png';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <footer>
             <div className="footer-content">
                 <div className="logo">
-                    <a href="#">LOGO</a>
+                    <a href="#"><img src={Logo} width={100}></img></a>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Servicio 1</a></li>
-                        <li><a href="#">Servicio 2</a></li>
-                        <li><a href="#">Servicio 3</a></li>
-                        <li><a href="#">Contáctenos</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/servicios">Servicios</Link></li>
+                        <li><Link to="/paquetes">Paquetes</Link></li>
+                        <li><Link to="/blog">Blog</Link></li>
+                        <li><Link to="/contacto">Contactenos</Link></li>
+                        <li><Link to="/">Politica de Cookies</Link></li>
                     </ul>
                 </nav>
                 <div className="legal">
+                    <a href="#">Aviso legal</a>
                     <a href="#">Términos y Condiciones</a>
                     <a href="#">Política de Privacidad</a>
                 </div>

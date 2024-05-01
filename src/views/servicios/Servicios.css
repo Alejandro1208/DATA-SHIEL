@@ -1,0 +1,28 @@
+.servicios{
+    background: linear-gradient(to right, #b9b3d0, #7bb5bf);
+    padding-top: 40px;
+}
+.servicios-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .service {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service h3 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .service p {
+    color: #666;
+  }
+  
+  

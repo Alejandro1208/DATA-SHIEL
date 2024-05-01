@@ -1,5 +1,5 @@
 header {
-    background-color: #e6e6f5;
+    background-color: #eeeeef;
     z-index: 2;
     position: absolute;
     top: 0;
@@ -60,9 +60,9 @@ header {
   }
   
   .menu a:hover {
-    color: #5C41BF;
-    border-bottom:2px solid #5C41BF;
-    padding-bottom: 30px;
+    color: #2b2bdd;
+    border-bottom:4px solid #3504e7;
+    padding-bottom: 27px;
   }
   
   .menu-icon.open i:before {
