@@ -81,7 +81,10 @@
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
-  .button:hover, .button-two:hover{
+  .button:hover{
+    color: #b9b3d0;
+  }
+  .button-two:hover{
     color: #b9b3d0;
   }
 
